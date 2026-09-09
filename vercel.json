@@ -1,37 +1,9 @@
 {
-  "version": 2,
-  "name": "connect-digital",
-  "builds": [
-    {
-      "src": "**/*.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/sobre",
-      "dest": "/sobre.html"
-    },
-    {
-      "src": "/servicos",
-      "dest": "/servicos.html"
-    },
-    {
-      "src": "/contato",
-      "dest": "/contato.html"
-    },
-    {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/sobre", "destination": "/sobre.html" },
+    { "source": "/servicos", "destination": "/servicos.html" },
+    { "source": "/contato", "destination": "/contato.html" }
   ],
   "headers": [
     {
