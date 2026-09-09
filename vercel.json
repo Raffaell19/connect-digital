@@ -1,10 +1,5 @@
 {
   "cleanUrls": true,
-  "rewrites": [
-    { "source": "/sobre", "destination": "/sobre.html" },
-    { "source": "/servicos", "destination": "/servicos.html" },
-    { "source": "/contato", "destination": "/contato.html" }
-  ],
   "headers": [
     {
       "source": "/(.*)",
