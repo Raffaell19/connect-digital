@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+.npm/
+
+# Ambiente
+.env
+.env.local
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Build
+dist/
+build/
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
