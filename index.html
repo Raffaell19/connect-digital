@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Connect Digital | Agência de Marketing Digital</title>
+  <meta name="description" content="Connect Digital — Startup de marketing digital especializada em tráfego pago, gestão de redes sociais, SEO, Google Meu Negócio e muito mais. Desde 2020 transformando negócios no ambiente digital." />
+  <meta name="keywords" content="marketing digital, tráfego pago, gestão de redes sociais, SEO, Google Meu Negócio, inbound marketing, videomaker" />
+  <link rel="canonical" href="index.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/home.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Navegação principal">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo" aria-label="Connect Digital - Página inicial">
+        <div class="logo-icon">
+          <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="40" cy="40" r="38" stroke="#00B4FF" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <circle cx="40" cy="40" r="28" stroke="#00B4FF" stroke-width="1" opacity="0.5"/>
+            <path d="M20 40 C20 29 29 20 40 20 C51 20 58 27 58 36 C58 44 52 50 44 50 C38 50 34 46 34 40 C34 35 37 31 42 31 C46 31 49 34 49 38 C49 43 45 47 40 47 C35 47 31 43 31 38" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+            <circle cx="20" cy="40" r="3.5" fill="#00B4FF"/>
+            <circle cx="40" cy="20" r="3.5" fill="#00B4FF"/>
+            <circle cx="60" cy="40" r="3.5" fill="#00B4FF"/>
+            <circle cx="40" cy="60" r="3.5" fill="#00B4FF"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">CONNECT</span>
+          <span class="logo-sub">— DIGITAL —</span>
+        </div>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu" role="menubar">
+        <li role="none"><a href="index.html" class="nav-link active" role="menuitem">Home</a></li>
+        <li role="none"><a href="sobre.html" class="nav-link" role="menuitem">Sobre Nós</a></li>
+        <li role="none"><a href="servicos.html" class="nav-link" role="menuitem">Serviços</a></li>
+        <li role="none"><a href="contato.html" class="nav-link nav-cta" role="menuitem" id="navCtaBtn">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero" aria-label="Seção principal">
+    <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+    <div class="hero-grid-overlay" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge" aria-label="Desde 2020">
+        <span class="badge-dot" aria-hidden="true"></span>
+        Desde 2020 — Transformando o Digital
+      </div>
+
+      <h1 class="hero-title">
+        O Digital que<br/>
+        <span class="hero-title-accent">Conecta</span> você<br/>
+        ao <span class="hero-title-stroke">Futuro</span>
+      </h1>
+
+      <p class="hero-desc">
+        Somos uma startup de marketing digital construída por jovens profissionais que reinventam a forma como empresas se comunicam, crescem e vendem online.
+      </p>
+
+      <div class="hero-actions">
+        <a href="servicos.html" class="btn btn-primary" id="heroServicesBtn">
+          <span>Ver Serviços</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="contato.html" class="btn btn-ghost" id="heroContactBtn">
+          Fale Conosco
+        </a>
+      </div>
+
+      <div class="hero-stats" role="list" aria-label="Estatísticas da empresa">
+        <div class="stat-item" role="listitem">
+          <span class="stat-number" data-target="150">0</span><span class="stat-symbol">+</span>
+          <span class="stat-label">Projetos Entregues</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item" role="listitem">
+          <span class="stat-number" data-target="5">0</span><span class="stat-symbol">+</span>
+          <span class="stat-label">Anos de Mercado</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item" role="listitem">
+          <span class="stat-number" data-target="98">0</span><span class="stat-symbol">%</span>
+          <span class="stat-label">Clientes Satisfeitos</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="orb-container">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+        <div class="ring ring-3"></div>
+        <div class="center-icon">
+          <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="60" cy="60" r="58" stroke="#00B4FF" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.6"/>
+            <circle cx="60" cy="60" r="44" stroke="#00B4FF" stroke-width="1" opacity="0.3"/>
+            <path d="M28 60 C28 42 42 28 60 28 C78 28 90 40 90 54 C90 67 82 76 70 76 C60 76 54 69 54 60 C54 52 59 46 67 46 C74 46 79 51 79 58 C79 66 73 72 65 72 C57 72 51 66 51 58" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
+            <circle cx="28" cy="60" r="5" fill="#00B4FF"/>
+            <circle cx="60" cy="28" r="5" fill="#00B4FF"/>
+            <circle cx="92" cy="60" r="5" fill="#00B4FF"/>
+            <circle cx="60" cy="92" r="5" fill="#00B4FF"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll" aria-label="Role para baixo">
+      <div class="scroll-line"></div>
+      <span>scroll</span>
+    </div>
+  </section>
+
+  <!-- SERVICES PREVIEW -->
+  <section class="services-preview" id="servicesPreview" aria-labelledby="servicesPreviewTitle">
+    <div class="section-container">
+      <div class="section-label" aria-hidden="true">// O que fazemos</div>
+      <h2 class="section-title" id="servicesPreviewTitle">Soluções Digitais<br/><span class="accent">Completas</span></h2>
+      <p class="section-desc">Da estratégia à execução — uma parceria que transforma sua presença digital em resultados reais.</p>
+
+      <div class="services-grid">
+
+        <article class="service-card" id="serviceCard1" tabindex="0">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 38L18 26L26 34L38 20" stroke="#00B4FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="6" cy="38" r="3" fill="#00B4FF"/>
+              <circle cx="38" cy="20" r="3" fill="#00B4FF"/>
+              <path d="M32 10h10v10" stroke="#00B4FF" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Tráfego Pago</h3>
+          <p class="service-desc">Campanhas de alta performance no Meta Ads e Google Ads que geram conversões reais.</p>
+          <div class="service-tag">ROI Maximizado</div>
+        </article>
+
+        <article class="service-card" id="serviceCard2" tabindex="0">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="10" width="32" height="22" rx="4" stroke="#00B4FF" stroke-width="2.5"/>
+              <path d="M18 38h12M24 32v6" stroke="#00B4FF" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="24" cy="21" r="5" stroke="#00B4FF" stroke-width="2"/>
+              <path d="M16 21h2M30 21h2" stroke="#00B4FF" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Gestão de Redes Sociais</h3>
+          <p class="service-desc">Conteúdo estratégico que engaja, fideliza e converte sua audiência em clientes.</p>
+          <div class="service-tag">Engajamento Real</div>
+        </article>
+
+        <article class="service-card" id="serviceCard3" tabindex="0">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="16" stroke="#00B4FF" stroke-width="2.5"/>
+              <path d="M24 8v4M24 36v4M8 24h4M36 24h4" stroke="#00B4FF" stroke-width="2" stroke-linecap="round"/>
+              <path d="M24 16v8l6 4" stroke="#00B4FF" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Google Meu Negócio</h3>
+          <p class="service-desc">Sua empresa no topo do Google Maps, encontrada por quem realmente importa.</p>
+          <div class="service-tag">Visibilidade Local</div>
+        </article>
+
+        <article class="service-card" id="serviceCard4" tabindex="0">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 34l6-6 6 6 6-12 6 8 4-4" stroke="#00B4FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="6" y="8" width="36" height="32" rx="4" stroke="#00B4FF" stroke-width="2" opacity="0.4"/>
+              <circle cx="38" cy="14" r="4" fill="#00B4FF" opacity="0.8"/>
+              <path d="M36 14h4M38 12v4" stroke="#0D1B3E" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-title">SEO</h3>
+          <p class="service-desc">Otimização que posiciona seu site nas primeiras posições do Google organicamente.</p>
+          <div class="service-tag">Tráfego Orgânico</div>
+        </article>
+
+        <article class="service-card" id="serviceCard5" tabindex="0">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 16h32M8 24h20M8 32h14" stroke="#00B4FF" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="38" cy="32" r="6" stroke="#00B4FF" stroke-width="2"/>
+              <path d="M36 30l4 2-4 2" stroke="#00B4FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Inbound Marketing & Automação</h3>
+          <p class="service-desc">Estratégias inteligentes para atrair, nutrir e converter leads automaticamente.</p>
+          <div class="service-tag">Automação Inteligente</div>
+        </article>
+
+        <article class="service-card" id="serviceCard7" tabindex="0">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="10" width="36" height="26" rx="4" stroke="#00B4FF" stroke-width="2.5"/>
+              <path d="M6 18h36" stroke="#00B4FF" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="11" cy="14" r="1.5" fill="#00B4FF"/>
+              <circle cx="16" cy="14" r="1.5" fill="#00B4FF"/>
+              <circle cx="21" cy="14" r="1.5" fill="#00B4FF"/>
+              <path d="M14 24h20M14 30h12" stroke="#00B4FF" stroke-width="2" stroke-linecap="round"/>
+              <path d="M22 36v6M16 42h16" stroke="#00B4FF" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Sites & Landing Pages</h3>
+          <p class="service-desc">Sites profissionais e landing pages de alta conversão que transformam visitantes em clientes.</p>
+          <div class="service-tag">Alta Conversão</div>
+        </article>
+
+        <article class="service-card" id="serviceCard8" tabindex="0">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 12l16 12-16 12V12z" stroke="#00B4FF" stroke-width="2.5" stroke-linejoin="round" fill="none"/>
+              <rect x="6" y="8" width="36" height="32" rx="4" stroke="#00B4FF" stroke-width="2" opacity="0.4"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Videomaker & Edição</h3>
+          <p class="service-desc">Conteúdo audiovisual profissional que comunica sua marca com impacto e autenticidade.</p>
+          <div class="service-tag">Produção Premium</div>
+        </article>
+
+        <article class="service-card" id="serviceCard9" tabindex="0">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="8" width="32" height="32" rx="4" stroke="#00B4FF" stroke-width="2.5"/>
+              <path d="M16 20l6 4-6 4" stroke="#00B4FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M26 28h6" stroke="#00B4FF" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M8 16h32" stroke="#00B4FF" stroke-width="1.5" opacity="0.4"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Sistemas Personalizados</h3>
+          <p class="service-desc">Desenvolvimento de sistemas sob medida para automatizar e digitalizar processos do seu negócio.</p>
+          <div class="service-tag">Sob Medida</div>
+        </article>
+
+      </div>
+
+      <div class="services-cta">
+        <a href="servicos.html" class="btn btn-primary" id="allServicesBtn">
+          <span>Conhecer Todos os Serviços</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-us" id="whyUs" aria-labelledby="whyUsTitle">
+    <div class="section-container">
+      <div class="why-content">
+        <div class="section-label" aria-hidden="true">// Por que a Connect Digital</div>
+        <h2 class="section-title" id="whyUsTitle">Jovens que movem<br/><span class="accent">o mercado</span></h2>
+        <p class="section-desc">Nossa equipe une tecnologia, criatividade e dados para entregar resultados que empresas tradicionais ainda nem imaginaram.</p>
+
+        <div class="why-list" role="list">
+          <div class="why-item" role="listitem">
+            <div class="why-check" aria-hidden="true">✓</div>
+            <div>
+              <strong>Estratégia orientada a dados</strong>
+              <p>Cada decisão é baseada em métricas reais, não achismos.</p>
+            </div>
+          </div>
+          <div class="why-item" role="listitem">
+            <div class="why-check" aria-hidden="true">✓</div>
+            <div>
+              <strong>Tecnologia de ponta</strong>
+              <p>Utilizamos as ferramentas mais avançadas do mercado digital.</p>
+            </div>
+          </div>
+          <div class="why-item" role="listitem">
+            <div class="why-check" aria-hidden="true">✓</div>
+            <div>
+              <strong>100% Home Office</strong>
+              <p>Agilidade e eficiência sem custos operacionais desnecessários.</p>
+            </div>
+          </div>
+          <div class="why-item" role="listitem">
+            <div class="why-check" aria-hidden="true">✓</div>
+            <div>
+              <strong>Resultado mensurável</strong>
+              <p>Relatórios transparentes para você acompanhar cada avanço.</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="sobre.html" class="btn btn-secondary" id="aboutUsBtn">Conheça Nossa História</a>
+      </div>
+
+      <div class="why-visual" aria-hidden="true">
+        <div class="tech-window">
+          <div class="window-bar">
+            <div class="window-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <span class="window-title">connect_digital.js</span>
+          </div>
+          <div class="window-code">
+            <pre><code><span class="code-keyword">const</span> <span class="code-var">ConnectDigital</span> = {
+  <span class="code-prop">missão</span>: <span class="code-string">"conectar marcas ao futuro"</span>,
+  <span class="code-prop">desde</span>: <span class="code-number">2020</span>,
+  <span class="code-prop">modelo</span>: <span class="code-string">"100% remoto"</span>,
+  <span class="code-prop">tecnologias</span>: [
+    <span class="code-string">"Meta Ads"</span>,
+    <span class="code-string">"Google Ads"</span>,
+    <span class="code-string">"SEO Tools"</span>,
+    <span class="code-string">"Automação"</span>
+  ],
+  <span class="code-prop">resultado</span>: () =&gt; {
+    <span class="code-keyword">return</span> <span class="code-string">"crescimento real 🚀"</span>
+  }
+}
+<span class="code-comment">// Pronto para conectar você?</span>
+<span class="code-var">ConnectDigital</span>.<span class="code-prop">resultado</span>();
+<span class="code-output">▶ "crescimento real 🚀"</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="cta-section" id="ctaSection" aria-labelledby="ctaTitle">
+    <div class="cta-bg" aria-hidden="true"></div>
+    <div class="cta-container">
+      <div class="section-label" aria-hidden="true">// Próximo passo</div>
+      <h2 class="cta-title" id="ctaTitle">Pronto para crescer<br/>no <span class="accent">digital?</span></h2>
+      <p class="cta-desc">Agende uma conversa gratuita e descubra como a Connect Digital pode transformar sua presença online.</p>
+      <div class="cta-actions">
+        <a href="https://wa.me/5551991962040?text=Olá!%20Vim%20pelo%20site%20da%20Connect%20Digital%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20serviços."
+           class="btn btn-whatsapp" id="ctaWhatsappBtn" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.111.547 4.094 1.508 5.818L0 24l6.335-1.492A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.808 9.808 0 01-5.034-1.386l-.362-.214-3.75.883.929-3.655-.235-.374A9.794 9.794 0 012.182 12C2.182 6.579 6.579 2.182 12 2.182S21.818 6.579 21.818 12 17.421 21.818 12 21.818z"/></svg>
+          <span>Falar no WhatsApp</span>
+        </a>
+        <a href="contato.html" class="btn btn-outline-light" id="ctaFormBtn">Enviar Mensagem</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo" aria-label="Connect Digital">
+          <div class="logo-icon logo-icon-sm">
+            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="40" cy="40" r="38" stroke="#00B4FF" stroke-width="1.5" stroke-dasharray="4 3"/>
+              <path d="M20 40 C20 29 29 20 40 20 C51 20 58 27 58 36 C58 44 52 50 44 50 C38 50 34 46 34 40 C34 35 37 31 42 31 C46 31 49 34 49 38 C49 43 45 47 40 47 C35 47 31 43 31 38" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              <circle cx="20" cy="40" r="3.5" fill="#00B4FF"/>
+              <circle cx="40" cy="20" r="3.5" fill="#00B4FF"/>
+              <circle cx="60" cy="40" r="3.5" fill="#00B4FF"/>
+              <circle cx="40" cy="60" r="3.5" fill="#00B4FF"/>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="logo-name">CONNECT</span>
+            <span class="logo-sub">— DIGITAL —</span>
+          </div>
+        </a>
+        <p class="footer-tagline">Conectando marcas ao futuro digital desde 2020.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Links do rodapé">
+        <div class="footer-col">
+          <h4 class="footer-col-title">Páginas</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre Nós</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Serviços</h4>
+          <ul>
+            <li><a href="servicos.html">Tráfego Pago</a></li>
+            <li><a href="servicos.html">Gestão de Redes</a></li>
+            <li><a href="servicos.html">Google Meu Negócio</a></li>
+            <li><a href="servicos.html">SEO</a></li>
+            <li><a href="servicos.html">Inbound Marketing</a></li>
+            <li><a href="servicos.html">Videomaker</a></li>
+            <li><a href="servicos.html">Sites & Landing Pages</a></li>
+            <li><a href="servicos.html">Sistemas Personalizados</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contato</h4>
+          <ul>
+            <li>
+              <a href="https://wa.me/5551991962040" target="_blank" rel="noopener noreferrer">
+                WhatsApp: (51) 99196-2040
+              </a>
+            </li>
+            <li>
+              <a href="mailto:connect.digittall@gmail.com">connect.digittall@gmail.com</a>
+            </li>
+            <li><span style="opacity:0.6;">100% Home Office</span></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2020–<span id="currentYear"></span> Connect Digital. Todos os direitos reservados.</p>
+      <p>Feito com 💙 por jovens que transformam o digital</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/home.js"></script>
+</body>
+</html>
